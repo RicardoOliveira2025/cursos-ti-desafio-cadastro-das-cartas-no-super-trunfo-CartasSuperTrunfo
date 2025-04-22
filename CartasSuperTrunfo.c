@@ -8,7 +8,7 @@ int main (){
 
     //declaracao das variaveis
     int NumerodaCarta;
-    char Estado[1];
+    char Estado[15];
     char NomedaCidade[23];
     char CodigodaCarta[3];
     int Populacao;
@@ -22,7 +22,7 @@ int main (){
     scanf("%d", &NumerodaCarta);
 
     printf("Digite o nome do Estado: ");
-    scanf("%s",&Estado);
+    scanf("%s", &Estado);
 
     printf("Digite o nome da cidade: ");
     scanf("%s", &NomedaCidade);
@@ -48,7 +48,7 @@ int main (){
     printf("O codigo da carta eh: %s \n", CodigodaCarta);
     printf("A populacao eh: %d \n", Populacao);
     printf("A area eh de: %f \n", Area);
-    printf("O PIB da cidade eh de: %f \n", PIB);
+    printf("O PIB da cidade eh de: R$  %f \n", PIB);
     printf("O numero de pontos turisticos eh: %d \n", NumerodePontosTuristicos);
     
     printf("Carta 2 \n");
@@ -83,7 +83,7 @@ int main (){
     printf("O codigo da carta eh: %s \n", CodigodaCarta);
     printf("A populacao eh: %d \n", Populacao);
     printf("A area eh de: %f \n", Area);
-    printf("O PIB da cidade eh de: %f \n", PIB);
+    printf("O PIB da cidade eh de: R$ %f \n", PIB);
     printf("O numero de pontos turisticos eh: %d \n", NumerodePontosTuristicos);
 
     return 0;
