@@ -17,6 +17,7 @@ int main (){
     int NumerodePontosTuristicos;
     float DensidadePopulacional;
     float PIBperCapita;
+    float SuperPoder;
 
     //Solicitacoes no monitor e saida de dados
     
